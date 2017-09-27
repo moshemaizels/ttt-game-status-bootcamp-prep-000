@@ -53,3 +53,13 @@ def over?(board)
     return false
   end
 end
+
+def winner?(board)
+  if won?(board)
+    winningBoard = won?(board)
+    if winningBoard[0] == "X"
+      
+  else
+    return nil
+  end 
+end
